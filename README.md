@@ -1,2 +1,1 @@
-# C-_Workshop
-UCT C# Bootcamp 2019
+# UCT C# Bootcamp 2019
