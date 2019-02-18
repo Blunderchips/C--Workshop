@@ -1,0 +1,35 @@
+Question 1
+There are three primary method of working with databases and data model when using the Entity Framework, 
+namely: code first, model first and database first.
+
+Code first requires programmers to first create the class of object what they wish to use. Visual Studio 
+is able to inspect the class files and generates a database model from the code. This method is best if 
+there is no pre-existing database.
+
+The model first approach requires programmers to create a Visual Studio database model. Visual Studio will
+then analysis the model and generate a database and the classes required to interact with the database. 
+This method is best if there is no pre-existing database.
+
+The database first approach requires a pre-existing database. The Visual Studio IDE is able to analyse the
+database and generate a database mode. This model is then used to generate the classes required to 
+interact with the database.
+
+Question 2
+Fields can either be marked an “ID” or “Key”. When marking a property as a primary key it can be called 
+“ID” or “classnameID”. This indicate to Visual Studio that the property is a key. The “ID” key is 
+preferred when marking a field as a primary key as “key” may be referring to a foreign key.
+
+Question 3
+The code first constructor can specify the database name. The connection string can be placed in the 
+web.config/app.config file. The connection can also be made using the connection convention.
+
+Question 4
+All data in the database will be lost. Alter the database rather than drop it. This will preserve all data.
+
+Question 5
+The model can be further configured using the fluent API or by using data annotations. You are also able 
+to create custom conventions.
+
+Question 6
+5.2.4.0
+Check in the project web.config file
