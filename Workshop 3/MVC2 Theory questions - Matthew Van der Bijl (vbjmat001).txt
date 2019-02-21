@@ -1,0 +1,17 @@
+The default route data is stored in the home controller on the home page. The default route data
+ maps the URL of the first controller that was added.
+
+Both GET and POST are used to send data to a webpage. GET data is visible in the URL of the page.
+This can be seen as a security risk. POST data is not visible in the URL. Thus, POST data cannot be seen or edited by the user.
+
+The Entity State enum stored flag bitwise flag attributes for the database connection, namely: 
+unchanged, modified, detached deleted and added. These flags provided additional information 
+about the current state of the database. This data can prove vital programmers when debugging 
+or optimising. 
+
+The dispose method to release all memory persistence objects. It may also be referred to as a 
+destroy method. The primary purpose of the dispose method is to prevent memory leakage. 
+
+View result is used when data is being received from the database, for example, the result of a 
+select statement. He Action Result is returned information about the state of an action that 
+was performed. For example, if an update statement executed correctly.
