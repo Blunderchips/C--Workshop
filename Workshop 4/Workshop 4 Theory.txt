@@ -1,0 +1,26 @@
+1.
+using System.Threading.Tasks;
+
+2. 
+When tasks are CPU bound or when many tasks may be executed simultaneously.
+
+3.
+Task-based Asynchronous Pattern
+
+4.
+"Type name"_"operation type"
+For example, departement_insert
+
+5.
+Pessimistic concurrency control
+
+6. 
+The procedure will execute, but not commit to the database. If there
+is no collision the result will be committed to the database. The optimistic approach to concurrency control does not test the procedure first.
+
+7. 
+OptimisticConcurrencyException
+
+8.
+EF makes use of a three-tier inheritance system. This is done for data
+normalisation.
