@@ -138,6 +138,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -158,6 +159,14 @@
     <Compile Include="Migrations\201902251611093_init.cs" />
     <Compile Include="Migrations\201902251611093_init.Designer.cs">
       <DependentUpon>201902251611093_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902271057145_DepartmentSP.cs" />
+    <Compile Include="Migrations\201902271057145_DepartmentSP.Designer.cs">
+      <DependentUpon>201902271057145_DepartmentSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902271101316_RowVersion.cs" />
+    <Compile Include="Migrations\201902271101316_RowVersion.Designer.cs">
+      <DependentUpon>201902271101316_RowVersion.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -225,6 +234,11 @@
     <Content Include="Views\Instructor\Details.cshtml" />
     <Content Include="Views\Instructor\Edit.cshtml" />
     <Content Include="Views\Instructor\Index.cshtml" />
+    <Content Include="Views\Department\Create.cshtml" />
+    <Content Include="Views\Department\Delete.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
+    <Content Include="Views\Department\Edit.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -243,6 +257,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902251611093_init.resx">
       <DependentUpon>201902251611093_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902271057145_DepartmentSP.resx">
+      <DependentUpon>201902271057145_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902271101316_RowVersion.resx">
+      <DependentUpon>201902271101316_RowVersion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
